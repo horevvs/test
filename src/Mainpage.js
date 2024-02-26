@@ -122,7 +122,7 @@ function App() {
     return (
         <div >
             <div className='d-flex justify-content-evenly mt-3' >
-                <button onClick={Returnlist} type="button" className="btn btn-danger">Return list</button>
+                <button onClick={Returnlist} type="button" className="btn btn-danger">Return lists</button>
                 <div className="text_links_catalog">
                     <input type="email" className="form-control text_links_catalog" id="exampleFormControlInput1" onChange={(e) =>  {setinputsProduct(e.target.value)   }} placeholder="add brand" />
                 </div>
