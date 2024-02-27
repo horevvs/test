@@ -20,7 +20,7 @@ function App() {
 
     useEffect(() => {
         try {
-            fetch("http://api.valantis.store:40000/",
+            fetch("https://api.valantis.store:41000/",
                 {
                     method: 'POST',
                     headers: {
@@ -35,7 +35,7 @@ function App() {
             )
                 .then(resp => resp.json())
                 .then((response) => {
-                    fetch("http://api.valantis.store:40000/",
+                    fetch("https://api.valantis.store:41000/",
                         {
                             method: 'POST',
                             headers: {
@@ -84,7 +84,7 @@ function App() {
 
     // Возвращает с апи все по одной цене
     const SortByPrice = () => {
-        fetch("http://api.valantis.store:40000/",
+        fetch("https://api.valantis.store:41000/",
             {
                 method: 'POST',
                 headers: {
@@ -99,7 +99,7 @@ function App() {
         )
             .then(resp => resp.json())
             .then((response) => {
-                fetch("http://api.valantis.store:40000/",
+                fetch("https://api.valantis.store:41000/",
                     {
                         method: 'POST',
                         headers: {
