@@ -20,7 +20,7 @@ function App() {
 
     useEffect(() => {
         try {
-            fetch("https://api.valantis.store:40000/",
+            fetch("http://api.valantis.store:40000/",
                 {
                     method: 'POST',
                     headers: {
@@ -35,7 +35,7 @@ function App() {
             )
                 .then(resp => resp.json())
                 .then((response) => {
-                    fetch("https://api.valantis.store:40000/",
+                    fetch("http://api.valantis.store:40000/",
                         {
                             method: 'POST',
                             headers: {
